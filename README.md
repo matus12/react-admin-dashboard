@@ -1,3 +1,5 @@
+[![Deploy static content to Pages](https://github.com/matus12/react-admin-dashboard/actions/workflows/static.yml/badge.svg)](https://github.com/matus12/react-admin-dashboard/actions/workflows/static.yml)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
