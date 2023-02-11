@@ -2,26 +2,26 @@ import { useState } from "react";
 import { ProSidebar, Menu, MenuItem } from "react-pro-sidebar";
 import 'react-pro-sidebar/dist/css/styles.css';
 import { Box, IconButton, Typography, useTheme } from "@mui/material";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import { tokens } from "../../theme";
-import HomeOutlineIcon from "@mui/icons-material/HomeOutlined";
-import PeopleOutlineIcon from "@mui/icons-material/PeopleOutlined";
-import ContactsOutlineIcon from "@mui/icons-material/ContactsOutlined";
-import ReceiptOutlineIcon from "@mui/icons-material/ReceiptOutlined";
-import PersonOutlineIcon from "@mui/icons-material/PersonOutlined";
-import CalendarTodayOutlineIcon from "@mui/icons-material/CalendarTodayOutlined";
-import HelpOutlineIcon from "@mui/icons-material/HelpOutlined";
-import BarChartOutlineIcon from "@mui/icons-material/BarChartOutlined";
-import PieChartOutlineIcon from "@mui/icons-material/PieChartOutlined";
-import TimelineOutlineIcon from "@mui/icons-material/TimelineOutlined";
+// import HomeOutlineIcon from "@mui/icons-material/HomeOutlined";
+// import PeopleOutlineIcon from "@mui/icons-material/PeopleOutlined";
+// import ContactsOutlineIcon from "@mui/icons-material/ContactsOutlined";
+// import ReceiptOutlineIcon from "@mui/icons-material/ReceiptOutlined";
+// import PersonOutlineIcon from "@mui/icons-material/PersonOutlined";
+// import CalendarTodayOutlineIcon from "@mui/icons-material/CalendarTodayOutlined";
+// import HelpOutlineIcon from "@mui/icons-material/HelpOutlined";
+// import BarChartOutlineIcon from "@mui/icons-material/BarChartOutlined";
+// import PieChartOutlineIcon from "@mui/icons-material/PieChartOutlined";
+// import TimelineOutlineIcon from "@mui/icons-material/TimelineOutlined";
 import MenuOutlineIcon from "@mui/icons-material/MenuOutlined";
-import MapOutlineIcon from "@mui/icons-material/MapOutlined";
+// import MapOutlineIcon from "@mui/icons-material/MapOutlined";
 
 export const Sidebar = () => {
     const theme = useTheme();
     const colors = tokens(theme.palette.mode);
     const [isCollapsed, setIsCollapsed] = useState(false);
-    const [selected, setSelected] = useState('Dashboard');
+    // const [selected, setSelected] = useState('Dashboard');
 
     return (
         <Box
